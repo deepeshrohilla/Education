@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Raleway', sans-serif;
+}
+/* default properties in web-site */
+.p{
+    font-size: 0.85em;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none !important;
+}
+.text-lightinfo{
+    color: #008bb3;
+}
+.text-lightgreen{
+    color: #07aa99;
+}
+::selection{
+    background: #07aa99;
+    color: #fff;
+}
+.active{
+    color: #008bb3;
+}
+/* my loading screen */
+#loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #003670;
+    padding: 100px;
+    z-index: 1000;
+    display: block;
+}
+.loader-text{
+    margin-top: 300px;
+    font-weight: 900 !important;
+    text-shadow: 0 5px 15px #0000009a;
+}
+
+/* section 01 */
+.s1{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-image: radial-gradient(#006e63b6,#003670da), url('../images/about-classes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.mynav{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    position: absolute;
+}
+.mynav-scroll{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+.nav-mini{
+    height: 80px;
+    background: #fff;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all .5s;
+    box-shadow: 0 0 5px #8261ee3f;
+}
+.nav-border-t{
+    border-radius: 50px 50px 0px 0px !important;
+    box-shadow: 0 0px 10px #ff589e;
+}
+.logo{
+    width: 25%;
+    float: left;
+    padding-left: 30px;
+}
+.logo img{
+    cursor: pointer;
+}
+.menu{
+    width: 75%;
+    float: left;
+}
+.menu .ul-main{
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 17px;
+}
+.menu .ul-main li{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    transition: .3s;
+    position: relative;
+}
+.menu .ul-main li:hover{
+    color: #0ead9c;
+    cursor: pointer;
+}
+.menu .ul-main li:after,.menu .ul-main li:before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    background: #0ead9c;
+    transition: .3s;
+}
+.menu .ul-main li:before{
+    left: 0;
+    top: -7px;
+}
+.menu .ul-main li:after{
+    right: 0;
+    bottom: -7px;
+}
+.menu .ul-main li:hover:after,.menu .ul-main li:hover:before{
+    width: 100%;
+}
+#mynav-toggle{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    display: none;
+    cursor: pointer;
+}
+#mynav-toggle .hamb:nth-child(2){
+    width: 40px;
+    height: 2px;
+    background: #000000a2;
+    margin-top: 8px;
+    transition: all .5s;
+    transform-origin: 0 50%;
+}
+#mynav-toggle .hamb:nth-child(1),#mynav-toggle .hamb:nth-child(3){
+    width: 30px;
+    height: 2px;
+    margin-top: 8px;
+    background: #000000a2;
+    transition: all .5s;
+    transform-origin: 0 50%;
+}
+.hamb1{
+    cursor: pointer;
+    transform: rotate(44deg);
+}
+.hamb2{
+    opacity: 0 !important;
+}
+.hamb3{
+    cursor: pointer;
+    transform: rotate(-44deg);
+}
+.menu-res{
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    top:100%;
+    left:0px;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    transition:all 1s;
+    clip-path: circle(0px at 50% 40%);
+    box-shadow: 0 10px 10px #0ead9c;
+    display: none;
+    z-index: 5;
+}
+.menu-res-open{
+    clip-path: circle(100% at 50% 40%);
+}
+.menu-res .ul-res{
+    width: 100%;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 17px;
+    overflow: hidden;
+}
+.menu-res .ul-res li{
+    text-align: center;
+    height: 48px;
+    width: 100%;
+    line-height: 48px;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    transition: .3s;
+    margin-top: 10px;
+}
+.menu-res .ul-res li:hover{
+    background-color: #008bb3;
+    cursor: pointer;
+    color: #fff;
+    transform: scale(1.1);
+}
+.menu-res .ul-res li:active{
+    transform: scale(1);
+}
+
+/* section 02 */
+.s2{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/* footer section */
+.footer-section{
+    background: radial-gradient(#006e63,#003670);
+    float: left;
+}

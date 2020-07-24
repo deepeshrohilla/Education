@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Education</title>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/res.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+</head>
+
+<body onload="myloader()" onresize="removeEdd()">
+    <!-- loading screen -->
+    <div id="loader">
+        <h1 class="text-center text-white loader-text">Loading...</h1>
+        <div class="progress shadow">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+        </div>
+    </div>
+    <!-- header & slider section -->
+    <header class="header-section">
+        <!-- slider section -->
+        <div class="my-banner" alt="">
+            <div class="owl-carousel owl-theme">
+                <div class="item item1">
+                    <div class="content-div">
+                        <h2>We provide the best <span>strategy</span><br>
+                            to grow up your <span>business</span>
+                        </h2>
+                        <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo
+                            for your company at absolutely free of charge</p>
+                        <button class="mybtn"><span class="mybtn-text">discover more</span></button>
+                    </div>
+                </div>
+                <div class="item item2">
+                    <div class="content-div">
+                        <h2>We provide the best <span>strategy</span><br>
+                            to grow up your <span>business</span>
+                        </h2>
+                        <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo
+                            for your company at absolutely free of charge</p>
+                        <button class="mybtn"><span class="mybtn-text">discover more</span></button>
+                    </div>
+                </div>
+                <div class="item item3">
+                    <div class="content-div">
+                        <h2>We provide the best <span>strategy</span><br>
+                            to grow up your <span>business</span>
+                        </h2>
+                        <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo
+                            for your company at absolutely free of charge</p>
+                        <button class="mybtn"><span class="mybtn-text">discover more</span></button>
+                    </div>
+                </div>
+                <div class="item item4">
+                    <div class="content-div">
+                        <h2>We provide the best <span>strategy</span><br>
+                            to grow up your <span>business</span>
+                        </h2>
+                        <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo
+                            for your company at absolutely free of charge</p>
+                        <button class="mybtn"><span class="mybtn-text">discover more</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar section -->
+        <div class="mynav">
+            <div class="mynav-scroll">
+                <div class="nav-mini container" id="mini">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/images/logo.png" style="height: 70px; width:150px;"
+                                alt=""></a>
+                    </div>
+                    <div class="menu">
+                        <ul class="ul-main">
+                            <a href="index.html" class="text-dark">
+                                <li class="active">home</li>
+                            </a>
+                            <a href="pages/about.html" class="text-dark">
+                                <li>about us</li>
+                            </a>
+                            <a href="pages/bank.html" class="text-dark">
+                                <li>Bank</li>
+                            </a>
+                            <a href="pages/ssc.html" class="text-dark">
+                                <li>Ssc</li>
+                            </a>
+                            <a href="pages/railway.html" class="text-dark">
+                                <li>railway</li>
+                            </a>
+                            <a href="pages/defence.html" class="text-dark">
+                                <li>defence</li>
+                            </a>
+                            <a href="pages/gallery.html" class="text-dark">
+                                <li>gallery</li>
+                            </a>
+                            <a href="pages/contact.html" class="text-dark">
+                                <li>contact us</li>
+                            </a>
+                        </ul>
+                        <div id="mynav-toggle" title="Open Menu (ctlt+M)" onclick="toggleBtn()">
+                            <div id="hamb1" class="hamb"></div>
+                            <div id="hamb2" class="hamb"></div>
+                            <div id="hamb3" class="hamb"></div>
+                        </div>
+                    </div>
+                    <div class="menu-res" id="res-menu">
+                        <ul class="ul-res">
+                            <a href="index.html" class="text-dark">
+                                <li class="active">home</li>
+                            </a>
+                            <a href="pages/about.html" class="text-dark">
+                                <li>about us</li>
+                            </a>
+                            <a href="pages/bank.html" class="text-dark">
+                                <li>Bank</li>
+                            </a>
+                            <a href="pages/ssc.html" class="text-dark">
+                                <li>Ssc</li>
+                            </a>
+                            <a href="pages/railway.html" class="text-dark">
+                                <li>railway</li>
+                            </a>
+                            <a href="pages/defence.html" class="text-dark">
+                                <li>defence</li>
+                            </a>
+                            <a href="pages/gallery.html" class="text-dark">
+                                <li>gallery</li>
+                            </a>
+                            <a href="pages/contact.html" class="text-dark">
+                                <li>contact us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- course section  -->
+    <section class="s2 py-5">
+        <div class="container">
+            <div class="row d-flex flex-column justify-content-center pt-5">
+                <h2 class="text-body text-center font-weight-bold text-uppercase mb-0">Popular <span
+                        class="text-lightgreen">Courses</span></h2>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="card my-card-1">
+                        <a href="#"><img src="assets/images/ssc.jpg" class="card-img-top" alt=""></a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title text-lightinfo font-weight-bold text-uppercase">Ssc</h5>
+                            </a>
+                            <p class="card-text text-muted p">Staff Selection Commission - Combined Graduate Level
+                                Examination, often referred to as SSC CGL is an examination conducted to recruit staff
+                                to vari.</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Course Duration : 6 Months</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Class Duration : 3 to 4 Hours
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="card my-card-1">
+                        <a href="#"><img src="assets/images/bank.jpg" class="card-img-top" alt=""></a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title text-lightinfo font-weight-bold text-uppercase">Bank</h5>
+                            </a>
+                            <p class="card-text text-muted p">The main exam among them is the SBI PO exam and the IBPS
+                                PO exam. Both of them have a large number of vacancies and eagerly look for young
+                                officer.</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Course Duration : 6 Months</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Class Duration : 3 to 4 Hours
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="card my-card-1">
+                        <a href="#"><img src="assets/images/railway.jpg" class="card-img-top" alt=""></a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title text-lightinfo font-weight-bold text-uppercase">Railway</h5>
+                            </a>
+                            <p class="card-text text-muted p">The Exam Pattern for Railway Recruitment 2019 constitutes
+                                of two stages of CBT or Computer Based Test followed by Computer Based Aptitude Test.
+                            </p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Course Duration : 6 Months</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Class Duration : 3 to 4 Hours
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="card my-card-1">
+                        <a href="#"><img src="assets/images/defence.jpg" class="card-img-top" alt=""></a>
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title text-lightinfo font-weight-bold text-uppercase">Defence</h5>
+                            </a>
+                            <p class="card-text text-muted p">The result of the spade work done by these three military
+                                officers in the private sector, for the first time brought the concerns of national
+                                security issues.</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Course Duration : 6 Months</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Class Duration : 3 to 4 Hours
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about our classes section -->
+    <section class="s3 py-5">
+        <div class="container">
+            <div
+                class="row justify-content-lg-end justify-content-md-end justify-content-sm-start justify-content-start py-5">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 py-4">
+                    <div class="row px-3">
+                        <h2 class="text-white font-weight-bold text-uppercase pb-3">About <span
+                                class="text-lightgreen">Our</span> Education <span
+                                class="text-lightgreen">Courses</span></h2>
+                    </div>
+                    <div class="row px-3">
+                        <h6 class="text-white">Join our <span class="text-lightgreen">Education Classes</span> with the
+                            team of highly experienced teachers that help you every time.</h6>
+                        <p class="text-white p"><span class="text-lightgreen">Education classes</span> are the best
+                            <span class="text-lightgreen">SSC, BANK, RAILWAY & DEFENCE</span> Coaching in Jaipur. Here
+                            you can prepare SSC, BANK, Railway with <span class="text-lightgreen">Education
+                                classes.</span> We focused on clarity of every concept to our every individual student
+                            and provided mock test facility based on the latest exam pattern and cover the whole
+                            syllabus in fix time but also give extra classes for students.</p>
+                        <p class="text-white p">We work closely to serve students in fulfilling their academic dreams
+                            through professional guidance. Our highly dedicated and committed team strives to achieve
+                            excellence in the field of competitive exam preparation. Our main motto is that every
+                            candidate set an excellent platform for the preparation of their competition exams, so that
+                            join our institute Neon Classes which is the Best SSC Coaching in Jaipur.</p>
+                        <a href="#" class="btn mybtn text-light bg-info rounded-0"><span
+                                class="mybtn-text text-light">Learn More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section -->
+    <section class="s4 py-5">
+        <div class="container">
+            <div class="row d-flex flex-column justify-content-center pt-5">
+                <h2 class="text-body text-center font-weight-bold text-uppercase mb-0">Our <span
+                        class="text-lightgreen">Gallery</span></h2>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="gal-image">
+                        <img src="assets/images/slider1.jpg" class="gallery-images border rounded shadow">
+                        <a href="assets/images/slider1.jpg" data-lightbox="mygallery">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="gal-image">
+                        <img src="assets/images/slider2.jpg" class="gallery-images border rounded shadow">
+                        <a href="assets/images/slider2.jpg" data-lightbox="mygallery">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="gal-image">
+                        <img src="assets/images/slider3.jpg" class="gallery-images border rounded shadow">
+                        <a href="assets/images/slider3.jpg" data-lightbox="mygallery">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="gal-image">
+                        <img src="assets/images/slider1.jpg" class="gallery-images border rounded shadow">
+                        <a href="assets/images/slider1.jpg" data-lightbox="mygallery">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="gal-image">
+                        <img src="assets/images/slider2.jpg" class="gallery-images border rounded shadow">
+                        <a href="assets/images/slider2.jpg" data-lightbox="mygallery">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+                    <div class="gal-image">
+                        <img src="assets/images/slider3.jpg" class="gallery-images border rounded shadow">
+                        <a href="assets/images/slider3.jpg" data-lightbox="mygallery">
+                            <i class="fas fa-expand"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- results section -->
+    <section class="container-fluid process-section float-left py-5 ">
+        <div class="container">
+            <div class="row d-flex flex-column justify-content-center pt-5">
+                <h2 class="text-white text-center font-weight-bold text-uppercase mb-0">Results</h2>
+            </div>
+            <div class="row py-5">
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">46600+</h5>
+                        <p class="text-body text-center font-weight-bold p">BANKING SELECTIONS.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">19,400+</h5>
+                        <p class="text-body text-center font-weight-bold p">SSC SELECTIONS.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">4,300+</h5>
+                        <p class="text-body text-center font-weight-bold p">INSURANCE</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2 ">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">6,500+</h5>
+                        <p class="text-body text-center font-weight-bold p">RAILWAYS</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2 ">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">12,615+</h5>
+                        <p class="text-body text-center font-weight-bold p">POLICE CONSTABLE</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2 ">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">3,600+</h5>
+                        <p class="text-body text-center font-weight-bold p">PUNJAB STATE EXAMS</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">2,300+</h5>
+                        <p class="text-body text-center font-weight-bold p">HP GOVT EXAMS</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2 ">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">4,951+</h5>
+                        <p class="text-body text-center font-weight-bold p">CDS, AFCAT, SELECTIONS</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">1,500+</h5>
+                        <p class="text-body text-center font-weight-bold p">HARYANA GOVT EXAMS</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">260+</h5>
+                        <p class="text-body text-center font-weight-bold p">NDA, WRITTEN EXAM CLERED</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">7,000+</h5>
+                        <p class="text-body text-center font-weight-bold p">CTET</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 py-3 col-lg-2">
+                    <div class="process-mini">
+                        <h5 class="text-lightgreen text-center font-weight-bold">563+</h5>
+                        <p class="text-body text-center font-weight-bold p">UGC NET</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- section 05 -->
+    <section class="s5 py-5">
+        <div class="container">
+            <div class="row d-flex flex-column justify-content-center pt-5">
+                <h2 class="text-body text-center font-weight-bold text-uppercase mb-0">Our <span
+                        class="text-lightgreen">Upcoming</span> Classes <span class="text-lightgreen">Batch</span></h2>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
+                    <div class="card my-card-1 border-info rounded-0">
+                        <div class="card-body">
+                            <a href="#">
+                                <h6 class="card-title text-lightinfo font-weight-bold text-uppercase pb-3">SSC Special
+                                    Batch
+                                    Morning</h6>
+                            </a>
+                            <p class="card-text text-muted p">By Best & (SSC) Selected faculties</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Branch : Gopalpura</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Thu : December 10,2019</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Time : 07:00 AM</p>
+                            <a href="#" class="btn mybtn text-light bg-info mt-3 rounded-0"><span
+                                    class="text-light mybtn-text">Apply For Demo Classes</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
+                    <div class="card my-card-1 border-info rounded-0">
+                        <div class="card-body">
+                            <a href="#">
+                                <h6 class="card-title text-lightinfo font-weight-bold text-uppercase pb-3">Bank Special
+                                    Batch
+                                    Noon</h6>
+                            </a>
+                            <p class="card-text text-muted p">By Best & (BANK) Selected faculties</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Branch : Gopalpura</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Thu : December 10,2019</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Time : 11:00 AM</p>
+                            <a href="#" class="btn mybtn text-light bg-info mt-3 rounded-0"><span
+                                    class="text-light mybtn-text">Apply
+                                    For Demo Classes</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-3">
+                    <div class="card my-card-1 border-info rounded-0">
+                        <div class="card-body">
+                            <a href="#">
+                                <h6 class="card-title text-lightinfo font-weight-bold text-uppercase pb-3">Railway
+                                    Special
+                                    Batch Evening</h6>
+                            </a>
+                            <p class="card-text text-muted p">By Best & (Railway) Selected faculties</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Branch : Gopalpura</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Thu : December 10,2019</p>
+                            <p class="card-text text-lightinfo font-weight-bold p mb-1">Time : 04:00 PM</p>
+                            <a href="#" class="btn mybtn text-light bg-info mt-3 rounded-0"><span
+                                    class="text-light mybtn-text">Apply
+                                    For Demo Classes</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer-section container-fluid py-5">
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <h5 class="text-white text-uppercase mb-3">Education Classes</h5>
+                    <p class="text-white p mb-2"><i class="fas fa-map-marker-alt mr-3"></i>3rd floor, Opposite pooja
+                        tower, Gopalpura Bypass road, Jaipur</p>
+                    <p class="text-white p mb-2"><i class="far fa-calendar-alt mr-3"></i>Hours : Mon-Sun 8am - 8pm</p>
+                    <p class="text-white p mb-2"><i class="fas fa-phone-alt mr-3"></i>+91 8426934278</p>
+                    <p class="text-white p mb-2"><i class="far fa-envelope mr-3"></i>deepeshrohilla211@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <h5 class="text-white text-uppercase mb-3">Useful Links</h5>
+                    <p class="mb-2"><a href="index.html" class="text-white">Home</a></p>
+                    <p class="mb-2"><a href="pages/about.html" class="text-white">About us</a></p>
+                    <p class="mb-2"><a href="pages/gallery.html" class="text-white">Gallery</a></p>
+                    <p class="mb-2"><a href="pages/contact.html" class="text-white">Contact</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <h5 class="text-white text-uppercase mb-3">Courses Links</h5>
+                    <p class="mb-2"><a href="pages/ssc.html" class="text-white">Ssc</a></p>
+                    <p class="mb-2"><a href="pages/bank.html" class="text-white">Bank</a></p>
+                    <p class="mb-2"><a href="pages/railway.html" class="text-white">Railway</a></p>
+                    <p class="mb-2"><a href="pages/defence.html" class="text-white">Defence</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+                    <h5 class="text-white text-uppercase mb-3">Social Media Links</h5>
+                    <p class="mb-2"><a href="#" class="text-white"><i class="fab fa-facebook-f mr-3"></i>Facebook</a>
+                    </p>
+                    <p class="mb-2"><a href="#" class="text-white"><i class="fab fa-twitter mr-3"></i>Twitter</a></p>
+                    <p class="mb-2"><a href="#" class="text-white"><i class="fab fa-youtube mr-3"></i>YouTube</a></p>
+                    <p class="mb-2"><a href="#" class="text-white"><i class="fab fa-whatsapp mr-3"></i>Whatsapp</a></p>
+                </div>
+            </div>
+            <div class="row d-flex flex-column align-items-center text-white mt-5">
+                <p>Copyright © 2019 | Education all rights reserved.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- javascript links -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="https://kit.fontawesome.com/ffb6896c4c.js" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
